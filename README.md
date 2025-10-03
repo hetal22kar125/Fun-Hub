@@ -21,7 +21,6 @@ Choose the number for the game (1–4), or 5 to exit.
 
 1.Tic-Tac-Toe
 Enter positions 1–9 to place your mark. Board positions are:
-
  1 | 2 | 3
 ---+---+---
  4 | 5 | 6
