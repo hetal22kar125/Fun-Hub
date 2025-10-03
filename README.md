@@ -19,7 +19,8 @@ Standard C++ library (no external dependencies)
 # Main menu
 Choose the number for the game (1–4), or 5 to exit.
 
-1.Tic-Tac-Toe
+
+# 1.Tic-Tac-Toe
 Enter positions 1–9 to place your mark. Board positions are:
  1 | 2 | 3
 ---+---+---
