@@ -1,5 +1,5 @@
-# This is a small C++ project I created to practice and improve my programming skills. 
-# It helped me strengthen my understanding of basic concepts and problem-solving techniques.
+ This is a small C++ project I created to practice and improve my programming skills. 
+ It helped me strengthen my understanding of basic concepts and problem-solving techniques.
 
 # Fun-Hub
 A multi game experience 
