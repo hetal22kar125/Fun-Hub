@@ -8,8 +8,7 @@ A multi game experience
 1.Tic-Tac-Toe (two players, console-based)
 2.Number Guessing (random number between 1–100)
 3.Math Puzzle (random +, -, * problems with score tracking)
-4.8-Puzzle (display scaffold — movement handling TODO)
-
+4.exit.
 # Requirements
 A C++ compiler (g++, clang++)
 Standard C++ library (no external dependencies)
@@ -17,7 +16,7 @@ Standard C++ library (no external dependencies)
 # How to play (controls)
 
 # Main menu
-Choose the number for the game (1–4), or 5 to exit.
+Choose the number for the game (1–3), or 4 to exit.
 
 
  1.Tic-Tac-Toe
