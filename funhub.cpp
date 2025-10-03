@@ -1,4 +1,4 @@
-// Online C++ compiler to run C++ program online
+
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
@@ -144,49 +144,7 @@ public:
     }
 };
 
-// 4. NUMBER PUZZLE (8-Puzzle)
-class NumberPuzzle {
-private:
-    vector<vector<int>> board;
-    int emptyRow, emptyCol;
-    const int size = 3;
 
-public:
-    NumberPuzzle() { initializeBoard(); }
-
-    void initializeBoard() {
-        board = {{1, 2, 3}, {4, 5, 6}, {7, 8, 0}};
-        emptyRow = emptyCol = 2;
-    }
-
-    void displayBoard() {
-        for (auto &row : board) {
-            for (auto &num : row) cout << (num == 0 ? "  " : to_string(num) + " ");
-            cout << "\n";
-        }
-    }
-
-    bool isSolved() {
-        int correct = 1;
-        for (int i = 0; i < size; i++)
-            for (int j = 0; j < size; j++)
-                if ((i == size - 1 && j == size - 1 && board[i][j] == 0) ||
-                    (board[i][j] == correct++)) continue;
-                else return false;
-        return true;
-    }
-
-    void playGame() {
-        char move;
-        cout << "Arrange numbers in order using W/A/S/D to move.\n";
-        while (!isSolved()) {
-            displayBoard();
-            cout << "Move (W/A/S/D): ";
-            cin >> move;
-        }
-        cout << "Congratulations! You solved it!\n";
-    }
-};
 
 // MAIN GAME HUB
 int main() {
@@ -195,7 +153,7 @@ int main() {
         cout<<"\n==============|| WELCOME TO FUN HUB !||============\n";
         cout<<"Please choose a game which you want to play";
         cout << "\n=== FUN HUB ===\n";
-        cout << "1. Tic-Tac-Toe\n2. Number Guessing\n3. Math Puzzle\n4. 8-Puzzle\n5. Exit\n";
+        cout << "1. Tic-Tac-Toe\n2. Number Guessing\n3. Math Puzzle\n4. Exit\n";
         cout << "Select a game: ";
         cin >> choice;
 
@@ -203,7 +161,7 @@ int main() {
         if (choice == 1) { TicTacToe game; game.playGame(); }
         else if (choice == 2) { NumberGuessingGame game; game.startGame(); }
         else if (choice == 3) { MathPuzzle game; game.startGame(); }
-        else if (choice == 4) { NumberPuzzle game; game.playGame(); }
+        
         else cout << "Invalid choice! Try again.\n";
     }
 
