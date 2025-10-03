@@ -20,7 +20,7 @@ Standard C++ library (no external dependencies)
 Choose the number for the game (1–4), or 5 to exit.
 
 
-# 1.Tic-Tac-Toe
+ 1.Tic-Tac-Toe
 Enter positions 1–9 to place your mark. Board positions are:
  1 | 2 | 3
 ---+---+---
@@ -30,10 +30,10 @@ Enter positions 1–9 to place your mark. Board positions are:
 
 Players alternate X and O until a win or draw.
 
-# Number Guessing
+2.Number Guessing
 Program picks a random number (1–100). Enter integer guesses until correct.
 
-# Math Puzzle
+3.Math Puzzle
 Answer randomly generated arithmetic problems. Enter the numeric answer.
 After each correct answer you can continue (y) or stop (n).
 
